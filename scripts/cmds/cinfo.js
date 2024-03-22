@@ -35,12 +35,12 @@ module.exports = {
   },
 
   sendInfo: async function (message) {
-    const botName = "⇛⌘ 𝐀𝐑𝐈𝐘𝐀𝐍 𝐑𝐎𝐁𝐎𝐓 𝐕 5.𝟎 ⌘⇚";
+    const botName = "⇛⌘ RESHMI KHATUN 𝐕 5.𝟎 ⌘⇚";
     const botPrefix = ".";
     const authorName = "𝐀𝐑𝐈𝐘𝐀𝐍";
-    const authorFB = "https://www.facebook.com/profile.php?id=61556779347707";
+    const authorFB = "https://www.facebook.com/ahanafshikto";
     const authorInsta = "secret";
-    const status = "𝐈 𝐇𝐀𝐓𝐄 𝐋𝐎𝐕𝐄";
+    const status = "I AM SINGLE";
 
     const urls = JSON.parse(fs.readFileSync('scripts/cmds/assets/Ariyan.json'));
     const link = urls[Math.floor(Math.random() * urls.length)];
@@ -80,7 +80,7 @@ module.exports = {
 ➠Uptime↠ ${uptimeString}
 
 ﹋﹋﹋﹋﹋﹋﹋﹋﹋﹋﹋﹋﹋﹋
-Thanks for using ↠\n⇛⌘ 𝐀𝐑𝐈𝐘𝐀𝐍 𝐑𝐎𝐁𝐎𝐓 𝐕 5.𝟎 ⌘⇚
+Thanks for using ↠\n⇛⌘ RESHMI KHATUN 𝐕 5.𝟎 ⌘⇚
 ﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏`,
       attachment: await global.utils.getStreamFromURL(link)
     });
